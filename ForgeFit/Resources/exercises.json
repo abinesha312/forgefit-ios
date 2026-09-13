@@ -1,0 +1,1552 @@
+[
+  {
+    "id": "ex001",
+    "name": "Barbell Back Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Lower Back", "Abs"],
+    "equipment": ["Barbell", "Squat Rack"],
+    "category": "Compound",
+    "instructions": "Stand with barbell across upper back. Feet shoulder-width apart. Lower by bending knees and hips, keeping chest up. Descend until thighs parallel to floor. Drive through heels to return to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex002",
+    "name": "Barbell Bench Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on bench, feet flat on floor. Grip bar slightly wider than shoulders. Lower bar to mid-chest with control. Press bar up until arms fully extended.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex003",
+    "name": "Barbell Deadlift",
+    "primaryMuscles": ["Lower Back", "Glutes", "Hamstrings"],
+    "secondaryMuscles": ["Traps", "Forearms", "Abs"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Stand with feet hip-width, bar over mid-foot. Bend and grip bar. Keep back straight, chest up. Drive through heels, extending hips and knees simultaneously. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex004",
+    "name": "Barbell Overhead Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps", "Abs"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Stand with bar at shoulder height, hands just outside shoulders. Press bar overhead until arms locked. Lower with control to shoulders.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex005",
+    "name": "Barbell Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps", "Lower Back"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Bend at hips, back straight, knees slightly bent. Pull bar to lower chest, squeezing shoulder blades. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex006",
+    "name": "Pull-Up",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps", "Forearms"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Compound",
+    "instructions": "Hang from bar with overhand grip, hands slightly wider than shoulders. Pull body up until chin over bar. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex007",
+    "name": "Dumbbell Bench Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on bench with dumbbells at chest level. Press dumbbells up until arms extended. Lower with control to chest level.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex008",
+    "name": "Dumbbell Romanian Deadlift",
+    "primaryMuscles": ["Hamstrings", "Glutes"],
+    "secondaryMuscles": ["Lower Back"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Hold dumbbells in front of thighs. Hinge at hips, lowering dumbbells along legs. Keep back straight, slight knee bend. Return to start by driving hips forward.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex009",
+    "name": "Dumbbell Shoulder Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Sit or stand with dumbbells at shoulder height. Press dumbbells overhead until arms extended. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex010",
+    "name": "Dumbbell Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Compound",
+    "instructions": "Place one knee and hand on bench. Hold dumbbell in other hand. Pull dumbbell to hip, squeezing back. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex011",
+    "name": "Goblet Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Abs"],
+    "equipment": ["Dumbbell"],
+    "category": "Compound",
+    "instructions": "Hold dumbbell vertically at chest. Squat down keeping chest up, elbows inside knees. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex012",
+    "name": "Dumbbell Lunges",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Hold dumbbells at sides. Step forward into lunge, lowering back knee toward floor. Push off front foot to return. Alternate legs.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex013",
+    "name": "Incline Dumbbell Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on incline bench (30-45°). Press dumbbells up from chest until arms extended. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex014",
+    "name": "Dumbbell Flyes",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Isolation",
+    "instructions": "Lie on bench with dumbbells extended above chest, slight elbow bend. Lower dumbbells out to sides in arc. Bring back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex015",
+    "name": "Dumbbell Lateral Raise",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Stand with dumbbells at sides. Raise dumbbells out to sides until parallel to floor. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex016",
+    "name": "Dumbbell Bicep Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": ["Forearms"],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Stand with dumbbells at sides, palms forward. Curl dumbbells up toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex017",
+    "name": "Hammer Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": ["Forearms"],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Stand with dumbbells at sides, palms facing each other. Curl dumbbells up. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex018",
+    "name": "Tricep Dips",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": ["Chest", "Shoulders"],
+    "equipment": ["Dip Bar"],
+    "category": "Compound",
+    "instructions": "Support body on dip bars. Lower body by bending elbows until upper arms parallel to floor. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex019",
+    "name": "Dumbbell Tricep Extension",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbell"],
+    "category": "Isolation",
+    "instructions": "Hold dumbbell overhead with both hands. Lower behind head by bending elbows. Extend back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex020",
+    "name": "Face Pull",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Traps", "Back"],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Set cable at face height. Pull rope toward face, separating hands. Squeeze shoulder blades. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex021",
+    "name": "Cable Chest Flyes",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand between cables set high. Pull cables down and together in front of chest. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex022",
+    "name": "Lat Pulldown",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Cable", "Machine"],
+    "category": "Compound",
+    "instructions": "Sit at lat pulldown machine. Pull bar down to upper chest, squeezing shoulder blades. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex023",
+    "name": "Cable Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Cable"],
+    "category": "Compound",
+    "instructions": "Sit at cable row station. Pull handle to torso, squeezing shoulder blades. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex024",
+    "name": "Leg Press",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Machine"],
+    "category": "Compound",
+    "instructions": "Sit in leg press, feet on platform. Lower platform by bending knees. Press through heels to extend.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex025",
+    "name": "Leg Extension",
+    "primaryMuscles": ["Quadriceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Sit in leg extension machine. Extend legs until straight. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex026",
+    "name": "Leg Curl",
+    "primaryMuscles": ["Hamstrings"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Lie on leg curl machine. Curl heels toward glutes. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex027",
+    "name": "Calf Raise",
+    "primaryMuscles": ["Calves"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Stand on platform, heels hanging off edge. Raise up on toes. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex028",
+    "name": "Push-Up",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps", "Abs"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Start in plank position. Lower body until chest near floor. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex029",
+    "name": "Bodyweight Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Stand with feet shoulder-width. Lower into squat, keeping chest up. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex030",
+    "name": "Bodyweight Lunge",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Step forward into lunge, lowering back knee. Push off front foot to return. Alternate legs.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex031",
+    "name": "Plank",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Lower Back", "Shoulders"],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Hold body in straight line on forearms and toes. Keep core tight. Hold for time.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex032",
+    "name": "Crunches",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on back, knees bent. Curl shoulders toward pelvis. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex033",
+    "name": "Russian Twist",
+    "primaryMuscles": ["Obliques", "Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Sit with knees bent, feet off floor. Rotate torso side to side. Keep core engaged.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex034",
+    "name": "Mountain Climbers",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Shoulders", "Quadriceps"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Start in plank. Drive knees toward chest alternately in running motion. Keep core tight.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex035",
+    "name": "Burpee",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "From standing, drop to push-up position. Perform push-up. Jump feet to hands. Jump up with arms overhead.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex036",
+    "name": "Bulgarian Split Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Compound",
+    "instructions": "Place back foot on bench. Lower into lunge with front leg. Drive through front heel to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex037",
+    "name": "Hip Thrust",
+    "primaryMuscles": ["Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lean upper back on bench, barbell across hips. Drive hips up until body in line. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex038",
+    "name": "Front Squat",
+    "primaryMuscles": ["Quadriceps"],
+    "secondaryMuscles": ["Glutes", "Abs"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Hold barbell across front of shoulders. Squat down keeping chest up, elbows high. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex039",
+    "name": "Sumo Deadlift",
+    "primaryMuscles": ["Glutes", "Hamstrings"],
+    "secondaryMuscles": ["Lower Back", "Quadriceps"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Wide stance, toes out. Grip bar between legs. Keep chest up, drive through heels to lift. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex040",
+    "name": "Incline Barbell Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on incline bench. Lower bar to upper chest. Press up until arms extended.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex041",
+    "name": "Decline Barbell Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on decline bench. Lower bar to lower chest. Press up until arms extended.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex042",
+    "name": "Close-Grip Bench Press",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": ["Chest", "Shoulders"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie on bench, grip bar shoulder-width or narrower. Lower to chest. Press up, keeping elbows tucked.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex043",
+    "name": "T-Bar Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["T-Bar"],
+    "category": "Compound",
+    "instructions": "Straddle T-bar, bent over. Pull bar to chest, squeezing back. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex044",
+    "name": "Chin-Up",
+    "primaryMuscles": ["Back", "Biceps"],
+    "secondaryMuscles": ["Forearms"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Compound",
+    "instructions": "Hang from bar with underhand grip. Pull up until chin over bar. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex045",
+    "name": "Chest Dip",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Triceps", "Shoulders"],
+    "equipment": ["Dip Bar"],
+    "category": "Compound",
+    "instructions": "On dip bars, lean forward. Lower body until stretch in chest. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex046",
+    "name": "Arnold Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Start with dumbbells at shoulders, palms facing you. Press up while rotating palms out. Reverse motion down.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex047",
+    "name": "Front Raise",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Hold dumbbells in front of thighs. Raise dumbbells forward to shoulder height. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex048",
+    "name": "Rear Delt Flyes",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Back"],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Bend forward at hips. Raise dumbbells out to sides, squeezing shoulder blades. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex049",
+    "name": "Shrugs",
+    "primaryMuscles": ["Traps"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbells"],
+    "category": "Isolation",
+    "instructions": "Hold dumbbells at sides. Raise shoulders toward ears. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex050",
+    "name": "Preacher Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell", "Preacher Bench"],
+    "category": "Isolation",
+    "instructions": "Rest arms on preacher bench. Curl bar toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex051",
+    "name": "Concentration Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbell"],
+    "category": "Isolation",
+    "instructions": "Sit, rest elbow on inner thigh. Curl dumbbell toward shoulder. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex052",
+    "name": "Cable Tricep Pushdown",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable machine, grip bar. Push bar down until arms extended. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex053",
+    "name": "Skull Crushers",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Isolation",
+    "instructions": "Lie on bench, bar extended above. Lower bar toward forehead by bending elbows. Extend back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex054",
+    "name": "Kickback",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbell"],
+    "category": "Isolation",
+    "instructions": "Bend forward, upper arm parallel to floor. Extend forearm back. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex055",
+    "name": "Wrist Curl",
+    "primaryMuscles": ["Forearms"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Isolation",
+    "instructions": "Rest forearms on bench, wrists hanging over edge. Curl wrists up. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex056",
+    "name": "Reverse Wrist Curl",
+    "primaryMuscles": ["Forearms"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Isolation",
+    "instructions": "Rest forearms on bench, palms down. Curl wrists up. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex057",
+    "name": "Farmer's Walk",
+    "primaryMuscles": ["Forearms", "Traps"],
+    "secondaryMuscles": ["Abs", "Glutes"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Hold heavy dumbbells at sides. Walk forward with good posture. Maintain grip.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex058",
+    "name": "Good Morning",
+    "primaryMuscles": ["Lower Back", "Hamstrings"],
+    "secondaryMuscles": ["Glutes"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Bar across upper back. Hinge at hips, lowering torso. Keep back straight. Return to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex059",
+    "name": "Hyperextension",
+    "primaryMuscles": ["Lower Back"],
+    "secondaryMuscles": ["Glutes", "Hamstrings"],
+    "equipment": ["Hyperextension Bench"],
+    "category": "Isolation",
+    "instructions": "Position on hyperextension bench. Lower torso toward floor. Raise back to parallel.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex060",
+    "name": "Cable Crunch",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Kneel at cable machine, rope at head height. Crunch down, bringing elbows toward knees. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex061",
+    "name": "Hanging Leg Raise",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Hip Flexors"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Isolation",
+    "instructions": "Hang from bar. Raise legs toward chest, keeping them straight. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex062",
+    "name": "Bicycle Crunches",
+    "primaryMuscles": ["Abs", "Obliques"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on back, hands behind head. Bring opposite elbow to knee in cycling motion. Alternate sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex063",
+    "name": "Side Plank",
+    "primaryMuscles": ["Obliques"],
+    "secondaryMuscles": ["Abs"],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on side, support on forearm. Raise hips, body in straight line. Hold for time. Switch sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex064",
+    "name": "Pallof Press",
+    "primaryMuscles": ["Abs", "Obliques"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand side-on to cable at chest height. Press cable straight out, resist rotation. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex065",
+    "name": "Landmine Rotation",
+    "primaryMuscles": ["Obliques", "Abs"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Barbell", "Landmine"],
+    "category": "Compound",
+    "instructions": "Hold barbell end at chest. Rotate torso side to side, pivoting on feet. Control the movement.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex066",
+    "name": "Box Jump",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Calves"],
+    "equipment": ["Box"],
+    "category": "Plyometric",
+    "instructions": "Stand before box. Jump onto box with both feet. Step down. Repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex067",
+    "name": "Jump Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Calves"],
+    "equipment": ["Bodyweight"],
+    "category": "Plyometric",
+    "instructions": "Squat down. Explode up into jump. Land softly, absorbing impact. Repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex068",
+    "name": "Step-Up",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Box", "Dumbbells"],
+    "category": "Compound",
+    "instructions": "Place one foot on box. Step up, driving through heel. Step down with control. Alternate legs.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex069",
+    "name": "Glute Bridge",
+    "primaryMuscles": ["Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on back, knees bent, feet flat. Drive hips up, squeezing glutes. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex070",
+    "name": "Single-Leg Deadlift",
+    "primaryMuscles": ["Hamstrings", "Glutes"],
+    "secondaryMuscles": ["Lower Back"],
+    "equipment": ["Dumbbell"],
+    "category": "Compound",
+    "instructions": "Stand on one leg, hold dumbbell. Hinge at hip, lowering dumbbell. Keep back straight. Return to start. Switch legs.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex071",
+    "name": "Cable Kickback",
+    "primaryMuscles": ["Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Attach ankle strap to cable. Kick leg back, squeezing glute. Return with control. Switch legs.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex072",
+    "name": "Walking Lunge",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Hold dumbbells at sides. Step forward into lunge. Push off, bring back leg forward into next lunge. Continue walking.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex073",
+    "name": "Hack Squat",
+    "primaryMuscles": ["Quadriceps"],
+    "secondaryMuscles": ["Glutes"],
+    "equipment": ["Machine"],
+    "category": "Compound",
+    "instructions": "Position in hack squat machine. Lower by bending knees. Drive through heels to extend.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex074",
+    "name": "Sissy Squat",
+    "primaryMuscles": ["Quadriceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Stand, lean back, knees forward. Lower body by bending knees. Rise back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex075",
+    "name": "Nordic Hamstring Curl",
+    "primaryMuscles": ["Hamstrings"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Kneel, ankles secured. Lower torso forward with control, resisting with hamstrings. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex076",
+    "name": "Donkey Calf Raise",
+    "primaryMuscles": ["Calves"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Bend at hips, support on machine. Rise up on toes. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex077",
+    "name": "Seated Calf Raise",
+    "primaryMuscles": ["Calves"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Sit in machine, knees under pads. Rise up on toes. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex078",
+    "name": "Pec Deck Machine",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": [],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Sit at pec deck, arms on pads. Bring pads together in front of chest. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex079",
+    "name": "Chest Press Machine",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Machine"],
+    "category": "Compound",
+    "instructions": "Sit at chest press machine. Push handles forward until arms extended. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex080",
+    "name": "Incline Dumbbell Flyes",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Isolation",
+    "instructions": "Lie on incline bench. Lower dumbbells out to sides in arc. Bring back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex081",
+    "name": "Cable Crossover",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand between cable stacks set high. Pull cables down and together. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex082",
+    "name": "Wide-Grip Pull-Up",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Compound",
+    "instructions": "Hang from bar with wide overhand grip. Pull up until chin over bar. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex083",
+    "name": "Pendlay Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Bend at hips, bar on floor. Pull bar explosively to chest. Lower to floor between reps.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex084",
+    "name": "Meadows Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell", "Landmine"],
+    "category": "Compound",
+    "instructions": "Stagger stance at landmine end. Pull bar to hip, rotating torso. Lower with control. Switch sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex085",
+    "name": "Chest-Supported Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie face down on incline bench. Pull dumbbells to hips. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex086",
+    "name": "Inverted Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell", "Smith Machine"],
+    "category": "Compound",
+    "instructions": "Hang under bar at waist height, body straight. Pull chest to bar. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex087",
+    "name": "Machine Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Machine"],
+    "category": "Compound",
+    "instructions": "Sit at row machine. Pull handles to torso. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex088",
+    "name": "Straight-Arm Pulldown",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable machine, bar high. Pull bar down to thighs, arms straight. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex089",
+    "name": "Pullovers",
+    "primaryMuscles": ["Back", "Chest"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbell", "Bench"],
+    "category": "Isolation",
+    "instructions": "Lie on bench, dumbbell overhead. Lower dumbbell back in arc. Pull back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex090",
+    "name": "Upright Row",
+    "primaryMuscles": ["Shoulders", "Traps"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Hold bar at thighs. Pull bar up along body to chin. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex091",
+    "name": "Military Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Stand with bar at shoulders. Press bar overhead. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex092",
+    "name": "Machine Shoulder Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps"],
+    "equipment": ["Machine"],
+    "category": "Compound",
+    "instructions": "Sit at shoulder press machine. Press handles overhead. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex093",
+    "name": "Cable Lateral Raise",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable machine, grip low. Raise arm out to side. Return with control. Switch arms.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex094",
+    "name": "Reverse Pec Deck",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Back"],
+    "equipment": ["Machine"],
+    "category": "Isolation",
+    "instructions": "Sit at reverse pec deck. Pull handles back, squeezing shoulder blades. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex095",
+    "name": "Barbell Shrug",
+    "primaryMuscles": ["Traps"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Isolation",
+    "instructions": "Hold bar at thighs. Raise shoulders toward ears. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex096",
+    "name": "Cable Shrug",
+    "primaryMuscles": ["Traps"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable machine, grip low. Raise shoulders toward ears. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex097",
+    "name": "EZ-Bar Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": ["Forearms"],
+    "equipment": ["EZ-Bar"],
+    "category": "Isolation",
+    "instructions": "Hold EZ-bar at thighs. Curl bar toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex098",
+    "name": "Cable Bicep Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable machine, grip low. Curl cable toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex099",
+    "name": "Incline Dumbbell Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Dumbbells", "Bench"],
+    "category": "Isolation",
+    "instructions": "Sit on incline bench, arms hanging. Curl dumbbells toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex100",
+    "name": "Spider Curl",
+    "primaryMuscles": ["Biceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Isolation",
+    "instructions": "Lie face down on incline bench. Curl bar toward shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex101",
+    "name": "Overhead Cable Tricep Extension",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand back to cable, rope overhead. Extend arms forward and up. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex102",
+    "name": "Rope Tricep Pushdown",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": [],
+    "equipment": ["Cable"],
+    "category": "Isolation",
+    "instructions": "Stand at cable, grip rope. Push down, separating rope ends. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex103",
+    "name": "Bench Dip",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": ["Chest", "Shoulders"],
+    "equipment": ["Bench"],
+    "category": "Compound",
+    "instructions": "Hands on bench behind you, legs extended. Lower body by bending elbows. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex104",
+    "name": "Diamond Push-Up",
+    "primaryMuscles": ["Triceps"],
+    "secondaryMuscles": ["Chest", "Shoulders"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Push-up position, hands forming diamond. Lower body. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex105",
+    "name": "Ab Wheel Rollout",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Lower Back", "Shoulders"],
+    "equipment": ["Ab Wheel"],
+    "category": "Compound",
+    "instructions": "Kneel, grip ab wheel. Roll forward, extending body. Pull back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex106",
+    "name": "Dead Bug",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on back, arms up, knees bent at 90°. Lower opposite arm and leg. Alternate sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex107",
+    "name": "Bird Dog",
+    "primaryMuscles": ["Abs", "Lower Back"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "On hands and knees. Extend opposite arm and leg. Return. Alternate sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex108",
+    "name": "Leg Raise",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Hip Flexors"],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie on back. Raise legs toward ceiling. Lower with control, not touching floor.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex109",
+    "name": "V-Up",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Isolation",
+    "instructions": "Lie flat. Simultaneously raise torso and legs to form V. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex110",
+    "name": "Windshield Wiper",
+    "primaryMuscles": ["Obliques", "Abs"],
+    "secondaryMuscles": [],
+    "equipment": ["Pull-up Bar"],
+    "category": "Isolation",
+    "instructions": "Hang from bar, raise legs to L. Rotate legs side to side. Control the movement.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex111",
+    "name": "Wood Chop",
+    "primaryMuscles": ["Obliques", "Abs"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Cable"],
+    "category": "Compound",
+    "instructions": "Stand at cable, grip high. Rotate and pull down across body. Return. Switch sides.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex112",
+    "name": "Turkish Get-Up",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Kettlebell"],
+    "category": "Compound",
+    "instructions": "Lie holding kettlebell overhead. Stand up through series of movements. Reverse to lie down.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex113",
+    "name": "Kettlebell Swing",
+    "primaryMuscles": ["Glutes", "Hamstrings"],
+    "secondaryMuscles": ["Lower Back", "Shoulders"],
+    "equipment": ["Kettlebell"],
+    "category": "Compound",
+    "instructions": "Hinge at hips, swing kettlebell between legs. Drive hips forward, swing to chest height.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex114",
+    "name": "Kettlebell Goblet Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Abs"],
+    "equipment": ["Kettlebell"],
+    "category": "Compound",
+    "instructions": "Hold kettlebell at chest. Squat down, elbows inside knees. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex115",
+    "name": "Kettlebell Snatch",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Kettlebell"],
+    "category": "Compound",
+    "instructions": "Swing kettlebell between legs. Pull explosively overhead in one motion. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex116",
+    "name": "Battle Ropes",
+    "primaryMuscles": ["Shoulders", "Abs"],
+    "secondaryMuscles": ["Arms", "Back"],
+    "equipment": ["Battle Ropes"],
+    "category": "Compound",
+    "instructions": "Hold rope ends. Create waves by alternating or simultaneous arm movements.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex117",
+    "name": "Sled Push",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Calves", "Abs"],
+    "equipment": ["Sled"],
+    "category": "Compound",
+    "instructions": "Push sled forward, driving through legs. Maintain forward lean, core tight.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex118",
+    "name": "Sled Pull",
+    "primaryMuscles": ["Back", "Hamstrings"],
+    "secondaryMuscles": ["Biceps", "Glutes"],
+    "equipment": ["Sled"],
+    "category": "Compound",
+    "instructions": "Attach rope to sled. Walk backward, pulling sled toward you with arms or body.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex119",
+    "name": "Tire Flip",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Tire"],
+    "category": "Compound",
+    "instructions": "Squat, grip under tire. Drive through legs, push tire up and over.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex120",
+    "name": "Medicine Ball Slam",
+    "primaryMuscles": ["Abs", "Shoulders"],
+    "secondaryMuscles": ["Back"],
+    "equipment": ["Medicine Ball"],
+    "category": "Compound",
+    "instructions": "Hold medicine ball overhead. Slam forcefully to ground. Pick up and repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex121",
+    "name": "Wall Ball",
+    "primaryMuscles": ["Quadriceps", "Shoulders"],
+    "secondaryMuscles": ["Glutes"],
+    "equipment": ["Medicine Ball"],
+    "category": "Compound",
+    "instructions": "Hold medicine ball at chest. Squat down. Drive up, throwing ball to target on wall. Catch and repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex122",
+    "name": "TRX Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps", "Abs"],
+    "equipment": ["TRX"],
+    "category": "Compound",
+    "instructions": "Hold TRX handles, lean back, body straight. Pull chest to handles. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex123",
+    "name": "TRX Push-Up",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps", "Abs"],
+    "equipment": ["TRX"],
+    "category": "Compound",
+    "instructions": "Feet in TRX straps, push-up position. Lower body. Push back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex124",
+    "name": "TRX Pike",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["TRX"],
+    "category": "Isolation",
+    "instructions": "Feet in TRX, plank position. Pike hips up, forming inverted V. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex125",
+    "name": "Resistance Band Pull-Apart",
+    "primaryMuscles": ["Shoulders", "Back"],
+    "secondaryMuscles": [],
+    "equipment": ["Resistance Band"],
+    "category": "Isolation",
+    "instructions": "Hold band at chest, arms extended. Pull band apart, squeezing shoulder blades. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex126",
+    "name": "Resistance Band Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": [],
+    "equipment": ["Resistance Band"],
+    "category": "Compound",
+    "instructions": "Stand on band, hold ends at shoulders. Squat down. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex127",
+    "name": "Resistance Band Chest Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Resistance Band"],
+    "category": "Compound",
+    "instructions": "Anchor band behind, hold at chest. Press forward until arms extended. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex128",
+    "name": "Handstand Push-Up",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps", "Abs"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Kick into handstand against wall. Lower head toward floor. Press back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex129",
+    "name": "Muscle-Up",
+    "primaryMuscles": ["Back", "Chest"],
+    "secondaryMuscles": ["Biceps", "Triceps"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Compound",
+    "instructions": "Pull-up explosively. Transition over bar into dip position. Press to full extension.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex130",
+    "name": "Pistol Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings", "Abs"],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Stand on one leg, other extended forward. Squat down on standing leg. Drive back to start.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex131",
+    "name": "L-Sit",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Hip Flexors", "Shoulders"],
+    "equipment": ["Parallel Bars"],
+    "category": "Isolation",
+    "instructions": "Support on parallel bars. Raise legs to L-position. Hold for time.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex132",
+    "name": "Dragon Flag",
+    "primaryMuscles": ["Abs"],
+    "secondaryMuscles": ["Lower Back"],
+    "equipment": ["Bench"],
+    "category": "Isolation",
+    "instructions": "Lie on bench, grip behind head. Raise body, pivoting on shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex133",
+    "name": "Front Lever",
+    "primaryMuscles": ["Back", "Abs"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Isolation",
+    "instructions": "Hang from bar. Raise body parallel to floor, face up. Hold for time.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex134",
+    "name": "Skin the Cat",
+    "primaryMuscles": ["Shoulders", "Abs"],
+    "secondaryMuscles": ["Back"],
+    "equipment": ["Pull-up Bar"],
+    "category": "Isolation",
+    "instructions": "Hang from bar. Raise knees, roll backward through arms. Return with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex135",
+    "name": "Zercher Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Abs", "Back"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Hold bar in elbow crooks. Squat down. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex136",
+    "name": "Deficit Deadlift",
+    "primaryMuscles": ["Hamstrings", "Glutes", "Lower Back"],
+    "secondaryMuscles": ["Traps", "Forearms"],
+    "equipment": ["Barbell", "Platform"],
+    "category": "Compound",
+    "instructions": "Stand on platform, increasing range. Perform deadlift with extended range of motion.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex137",
+    "name": "Paused Bench Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lower bar to chest. Pause 1-2 seconds. Press explosively to lockout.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex138",
+    "name": "Tempo Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes"],
+    "secondaryMuscles": ["Hamstrings"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Squat with controlled tempo (3 sec down, 2 sec pause, explode up). Increases time under tension.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex139",
+    "name": "Pin Press",
+    "primaryMuscles": ["Chest"],
+    "secondaryMuscles": ["Shoulders", "Triceps"],
+    "equipment": ["Barbell", "Rack"],
+    "category": "Compound",
+    "instructions": "Set bar on pins at desired height. Press from pins to lockout. Reset between reps.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex140",
+    "name": "Floor Press",
+    "primaryMuscles": ["Chest", "Triceps"],
+    "secondaryMuscles": ["Shoulders"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Lie on floor. Lower bar until elbows touch floor. Press to lockout.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex141",
+    "name": "Single-Arm Dumbbell Snatch",
+    "primaryMuscles": ["Shoulders", "Glutes"],
+    "secondaryMuscles": ["Traps", "Abs"],
+    "equipment": ["Dumbbell"],
+    "category": "Compound",
+    "instructions": "Swing dumbbell between legs. Pull explosively overhead. Lower and repeat. Switch arms.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex142",
+    "name": "Dumbbell Thruster",
+    "primaryMuscles": ["Quadriceps", "Shoulders"],
+    "secondaryMuscles": ["Glutes", "Triceps"],
+    "equipment": ["Dumbbells"],
+    "category": "Compound",
+    "instructions": "Hold dumbbells at shoulders. Squat down. Drive up, pressing dumbbells overhead.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex143",
+    "name": "Clean and Press",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Deadlift bar, pull to shoulders (clean). Press overhead. Lower and repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex144",
+    "name": "Power Clean",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Deadlift bar explosively. Pull to shoulders, catching in quarter squat. Stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex145",
+    "name": "Hang Clean",
+    "primaryMuscles": ["Full Body"],
+    "secondaryMuscles": [],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Hold bar at thighs. Dip and explode, pulling bar to shoulders. Catch and stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex146",
+    "name": "Snatch Grip Deadlift",
+    "primaryMuscles": ["Back", "Glutes", "Hamstrings"],
+    "secondaryMuscles": ["Traps", "Forearms"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Wide grip on bar. Deadlift with extended range of motion.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex147",
+    "name": "Rack Pull",
+    "primaryMuscles": ["Back", "Traps"],
+    "secondaryMuscles": ["Glutes", "Hamstrings"],
+    "equipment": ["Barbell", "Rack"],
+    "category": "Compound",
+    "instructions": "Set bar on pins at knee height. Deadlift from pins, focusing on lockout.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex148",
+    "name": "Sumo Squat",
+    "primaryMuscles": ["Glutes", "Quadriceps"],
+    "secondaryMuscles": ["Hamstrings", "Adductors"],
+    "equipment": ["Dumbbell"],
+    "category": "Compound",
+    "instructions": "Wide stance, toes out. Hold dumbbell between legs. Squat down. Drive through heels to stand.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex149",
+    "name": "Cossack Squat",
+    "primaryMuscles": ["Quadriceps", "Glutes", "Adductors"],
+    "secondaryMuscles": [],
+    "equipment": ["Bodyweight"],
+    "category": "Compound",
+    "instructions": "Wide stance. Shift weight to one side, squatting on that leg. Other leg straight. Alternate.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex150",
+    "name": "Seal Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell", "Bench"],
+    "category": "Compound",
+    "instructions": "Lie face down on elevated bench. Pull bar to chest. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex151",
+    "name": "Landmine Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps", "Abs"],
+    "equipment": ["Barbell", "Landmine"],
+    "category": "Compound",
+    "instructions": "Hold barbell end at shoulder. Press up at angle. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex152",
+    "name": "Landmine Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell", "Landmine"],
+    "category": "Compound",
+    "instructions": "Straddle landmine end. Pull bar to hip. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex153",
+    "name": "Z-Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps", "Abs"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Sit on floor, legs extended. Press bar overhead from shoulders. Lower with control.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex154",
+    "name": "Bradford Press",
+    "primaryMuscles": ["Shoulders"],
+    "secondaryMuscles": ["Triceps"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Press bar just overhead. Lower behind head. Press up. Lower to front. Repeat.",
+    "imageUrl": null
+  },
+  {
+    "id": "ex155",
+    "name": "Yates Row",
+    "primaryMuscles": ["Back"],
+    "secondaryMuscles": ["Biceps"],
+    "equipment": ["Barbell"],
+    "category": "Compound",
+    "instructions": "Underhand grip, less bent over than standard row. Pull bar to lower abs. Lower with control.",
+    "imageUrl": null
+  }
+]
