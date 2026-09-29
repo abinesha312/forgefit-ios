@@ -1,10 +1,57 @@
 # ForgeFit
 
-A comprehensive iOS gym workout tracker inspired by Lyfta-style apps. Built with Swift, SwiftUI, and SwiftData.
+A comprehensive iOS gym workout tracker with Rust backend, muscle-focused training, diet tracking, and screen sharing for coaching. Built with Swift, SwiftUI, SwiftData, and Rust (Axum).
+
+**UI Design**: Inspired by [Canva design](https://canva.link/hlivdebsivr605e) - dark athletic theme with neon lime accents.
 
 **ForgeFit is not affiliated with Lyfta or any other fitness app.** This is an independent, open-source project.
 
+## Architecture
+
+ForgeFit consists of two main components:
+
+1. **iOS App** (Swift + SwiftUI + SwiftData)
+   - Native iOS 17+ application
+   - Modern dark athletic UI with neon lime accents
+   - Local data persistence with SwiftData
+   - Backend integration via REST API
+
+2. **Rust Backend** (`backend/` directory)
+   - Axum web framework + Tokio async runtime
+   - SQLite database for exercises, diet plans, workouts
+   - REST JSON API for iOS client
+   - See `backend/README.md` for details
+
 ## Features
+
+### 🆕 Featured Exercises & Muscle Focus
+- **10 Core Exercises** highlighted in dedicated view:
+  1. Bench Press → Chest
+  2. Overhead Press → Shoulders
+  3. Pull-ups → Back
+  4. Rows → Back
+  5. Squats → Quads
+  6. Romanian Deadlift → Hamstrings
+  7. Lunges → Glutes
+  8. Plank → Core
+  9. Calf Raises → Calves
+  10. Face Pulls → Rear Delts
+- Muscle Map visualization showing training volume by muscle group
+- Backend-powered exercise library
+
+### 🆕 Nutrition Tracking
+- **Daily Diet Plans** with macros (protein/carbs/fat)
+- Meal breakdowns: Breakfast, Lunch, Dinner, Snacks
+- Macro split visualization
+- Backend-served meal plans
+- **Informational only** - consult healthcare provider for dietary advice
+
+### 🆕 Coach Mode / Screen Sharing
+- In-app screen recording using ReplayKit
+- Session metadata tracking (start/stop times)
+- Local recording storage
+- Backend session logging
+- **Note**: Video streaming CDN not included in v1; local recording + metadata only
 
 ### ✅ Complete Onboarding Flow
 - Multi-step onboarding collecting user profile data
@@ -141,11 +188,32 @@ ForgeFit/
 ## Getting Started
 
 ### Requirements
-- **Xcode 15.0+**
-- **iOS 17.0+ Simulator or Device**
+
+**iOS App:**
+- Xcode 15.0+
+- iOS 17.0+ Simulator or Device
 - macOS Ventura or later
 
-### Opening in Xcode
+**Backend:**
+- Rust 1.70+ (tested with Rust 1.83 stable / nightly)
+- SQLite (bundled with sqlx)
+- OpenSSL dev libraries (`libssl-dev` on Ubuntu/Debian)
+
+### Running the Backend
+
+```bash
+cd backend
+cargo run
+```
+
+The backend will:
+- Create `forgefit.db` SQLite database
+- Run migrations and seed 10 featured exercises + sample diet plan
+- Start listening on `http://127.0.0.1:8080`
+
+See `backend/README.md` for full backend documentation, API endpoints, and testing.
+
+### Opening the iOS App in Xcode
 1. Clone this repository:
    ```bash
    git clone https://github.com/abinesha312/forgefit-ios.git
@@ -162,10 +230,19 @@ ForgeFit/
 4. Build and run: `Cmd+R`
 
 ### First Run
-1. Complete the onboarding flow (name, stats, goals)
-2. Grant HealthKit permissions when prompted (optional)
-3. View your generated workout plan on the Home screen
-4. Start your first workout!
+
+1. **Start the backend** (see above)
+2. **Launch the iOS app** in simulator or device
+3. Complete the onboarding flow (name, stats, goals)
+4. Grant HealthKit permissions when prompted (optional)
+5. Explore new tabs:
+   - **Featured**: View the 10 core exercises
+   - **Muscles**: See your training volume by muscle group
+   - **Nutrition**: Check today's diet plan and macros
+   - **Coach**: Start a screen recording session (requires real device for full functionality)
+   - **Progress**: Track your workout history and PRs
+
+**Note**: The iOS app expects the backend at `http://127.0.0.1:8080` by default. Ensure the backend is running before using Featured Exercises, Muscle Map, or Nutrition tabs.
 
 ## Testing
 
@@ -203,6 +280,22 @@ ForgeFit integrates with Apple Health to read and write fitness data. The app in
 ### Testing HealthKit
 - Use a physical device (HealthKit not available in Simulator)
 - Or configure HealthKit data in Simulator settings for basic testing
+
+## Screen Recording / Coach Mode
+
+ForgeFit includes in-app screen recording using iOS ReplayKit:
+
+- **ReplayKit Integration**: `RPScreenRecorder` for screen capture
+- **Session Metadata**: Start/stop times logged to backend API
+- **Local Storage**: Recordings stored on device (no remote streaming in v1)
+- **Permissions**: Requires photo library and microphone usage descriptions (included in Info.plist)
+
+**Limitations**: 
+- Full screen recording works best on physical devices
+- Video upload/streaming CDN not implemented - this is a v1 local-recording feature
+- Broadcast Upload Extension is conceptual; actual video distribution requires additional work
+
+See `backend/README.md` for share session API endpoints.
 
 ## Exercise Data Attribution
 
@@ -242,6 +335,12 @@ This is an independent, open-source project built for educational and personal u
 ## Roadmap
 
 Future enhancements being considered:
+- [x] Rust backend with REST API
+- [x] Featured exercises (10 core movements)
+- [x] Muscle map visualization
+- [x] Nutrition tracking with diet plans
+- [x] Screen recording / coach mode (v1 local)
+- [ ] Video streaming CDN for remote coaching
 - [ ] Apple Watch companion app with live workout tracking
 - [ ] Social features (friend challenges, leaderboards)
 - [ ] Video demonstrations for exercises
@@ -250,7 +349,6 @@ Future enhancements being considered:
 - [ ] Integration with other fitness services
 - [ ] Export workout data (CSV, PDF)
 - [ ] Advanced analytics and insights
-- [ ] Nutrition tracking integration
 
 ## Support
 
