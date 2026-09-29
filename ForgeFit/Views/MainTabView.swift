@@ -11,31 +11,42 @@ struct MainTabView: View {
                 }
                 .tag(0)
             
-            WorkoutView()
+            FeaturedExercisesView()
                 .tabItem {
-                    Label("Workout", systemImage: "figure.strengthtraining.traditional")
+                    Label("Featured", systemImage: "star.fill")
                 }
                 .tag(1)
             
-            ExerciseLibraryView()
+            MuscleMapView()
                 .tabItem {
-                    Label("Exercises", systemImage: "book.fill")
+                    Label("Muscles", systemImage: "figure.arms.open")
                 }
                 .tag(2)
+            
+            NutritionView()
+                .tabItem {
+                    Label("Nutrition", systemImage: "fork.knife")
+                }
+                .tag(3)
+            
+            CoachModeView()
+                .tabItem {
+                    Label("Coach", systemImage: "video.fill")
+                }
+                .tag(4)
             
             ProgressView()
                 .tabItem {
                     Label("Progress", systemImage: "chart.line.uptrend.xyaxis")
                 }
-                .tag(3)
-            
-            ProfileView()
-                .tabItem {
-                    Label("Profile", systemImage: "person.fill")
-                }
-                .tag(4)
+                .tag(5)
         }
+        .accentColor(.lime)
     }
+}
+
+extension Color {
+    static let lime = Color(red: 0.75, green: 1.0, blue: 0.0)
 }
 
 #Preview {
