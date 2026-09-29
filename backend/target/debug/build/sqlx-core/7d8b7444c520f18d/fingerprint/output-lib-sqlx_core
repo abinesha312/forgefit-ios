@@ -1,1 +1,0 @@
-{"$message_type":"unused_extern","lint_level":"force-warn","unused_extern_names":["bitflags","byteorder","crc","dotenvy","hex","itoa","once_cell","paste","stringprep"]}
